@@ -1,7 +1,3 @@
-# Author: Mohamed Renven Mohamed
-# description:Two players take turns subtracting a square number of coins from a pile of coins
-# and whoever takes the last coin wins
-
 # Import modules
 import math
 import random
@@ -38,8 +34,11 @@ def game_play(y):
 
 
 # Welcome message and choosing number of coins
-
+print('')
 print('Welcome to subtract a square game')
+print('In this game two players take turns subtracting a square number of coins')
+print('from a pile of coins and whoever takes the last coin wins')
+print('')
 print('If you want to choose number of coins between 10 and 1000 enter <1>')
 print('If you want a random number of coins enter <2>')
 print('If you want to exit the game enter <3>')
